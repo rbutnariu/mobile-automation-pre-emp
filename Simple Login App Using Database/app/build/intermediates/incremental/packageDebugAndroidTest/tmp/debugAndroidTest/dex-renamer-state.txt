@@ -1,0 +1,4 @@
+#Tue Feb 19 20:31:07 EET 2019
+base.0=C\:\\Users\\Radu\\Desktop\\preemp\\mobile-automation-pre-emp\\Simple Login App Using Database\\app\\build\\intermediates\\transforms\\dexMerger\\androidTest\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

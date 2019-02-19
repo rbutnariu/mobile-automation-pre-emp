@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Feb 19 20:31:07 EET 2019
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\Radu\\Desktop\\preemp\\mobile-automation-pre-emp\\Simple Login App Using Database\\app\\build\\intermediates\\transforms\\dexMerger\\androidTest\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1
