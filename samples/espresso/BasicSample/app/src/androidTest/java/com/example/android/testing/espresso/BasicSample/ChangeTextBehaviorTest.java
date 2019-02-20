@@ -17,6 +17,7 @@
 package com.example.android.testing.espresso.BasicSample;
 
 import android.app.Activity;
+import android.widget.EditText;
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -33,8 +34,12 @@ import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
 import static androidx.test.espresso.action.ViewActions.typeText;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
+import static org.hamcrest.Matchers.instanceOf;
+import static org.hamcrest.Matchers.is;
+import static org.hamcrest.core.AllOf.allOf;
 
 
 /**
@@ -48,6 +53,7 @@ import static androidx.test.espresso.matcher.ViewMatchers.withText;
 public class ChangeTextBehaviorTest {
 
     public static final String STRING_TO_BE_TYPED = "Espresso";
+    public static final String TITLE_TO_BE_SHOWN = "Hello Espresso!";
 
     /**
      * Use {@link ActivityScenarioRule} to create and launch the activity under test, and close it
@@ -59,7 +65,7 @@ public class ChangeTextBehaviorTest {
     @Test
     public void changeText_sameActivity() {
         // Type text and then press the button.
-        onView(withId(R.id.editTextUserInput))
+        onView(allOf(withId(R.id.editTextUserInput),is(instanceOf(EditText.class))))
                 .perform(typeText(STRING_TO_BE_TYPED), closeSoftKeyboard());
         onView(withId(R.id.changeTextBt)).perform(click());
 
@@ -76,5 +82,10 @@ public class ChangeTextBehaviorTest {
 
         // This view is in a different Activity, no need to tell Espresso.
         onView(withId(R.id.show_text_view)).check(matches(withText(STRING_TO_BE_TYPED)));
+    }
+
+    @Test
+    public void checkTitle() {
+        onView(withId(R.id.textToBeChanged)).check(matches(allOf(withText(TITLE_TO_BE_SHOWN),isDisplayed())));
     }
 }
