@@ -1,0 +1,4 @@
+#Thu Feb 21 10:15:35 EET 2019
+base.0=C\:\\mobile_automation\\samples\\espresso\\BasicSample\\app\\build\\intermediates\\transforms\\dexMerger\\androidTest\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
