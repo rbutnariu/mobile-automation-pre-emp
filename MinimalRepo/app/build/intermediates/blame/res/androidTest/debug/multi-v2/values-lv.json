@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\mobile\\mobile-automation-pre-emp\\MinimalRepo\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-lv\\values-lv.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\adrian.gramisteanu\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\28c52ccf731de39b6bfd1d6a87e1e5db\\res\\values-lv\\values-lv.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
