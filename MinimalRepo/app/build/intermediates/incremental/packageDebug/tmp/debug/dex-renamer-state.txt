@@ -1,0 +1,4 @@
+#Thu Feb 21 10:32:04 EET 2019
+base.0=C\:\\mobile-automation-pre-emp\\MinimalRepo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
