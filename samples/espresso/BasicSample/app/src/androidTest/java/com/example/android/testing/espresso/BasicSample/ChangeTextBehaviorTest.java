@@ -17,7 +17,10 @@
 package com.example.android.testing.espresso.BasicSample;
 
 import android.app.Activity;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -34,12 +37,14 @@ import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
 import static androidx.test.espresso.action.ViewActions.typeText;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.matcher.ViewMatchers.hasDescendant;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.Matchers.instanceOf;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.core.AllOf.allOf;
+import static org.hamcrest.core.IsNot.not;
 
 
 /**
@@ -54,6 +59,7 @@ public class ChangeTextBehaviorTest {
 
     public static final String STRING_TO_BE_TYPED = "Espresso";
     public static final String TITLE_TO_BE_SHOWN = "Hello Espresso!";
+    public static final String TITLE_BAR = "Basic Espresso sample";
 
     /**
      * Use {@link ActivityScenarioRule} to create and launch the activity under test, and close it
@@ -85,7 +91,15 @@ public class ChangeTextBehaviorTest {
     }
 
     @Test
-    public void checkTitle() {
+    public void checkWhatIsShown() {
         onView(withId(R.id.textToBeChanged)).check(matches(allOf(withText(TITLE_TO_BE_SHOWN),isDisplayed())));
+    }
+
+    @Test
+    public void checkTitleBar() {
+        onView(allOf(withText(TITLE_BAR),is(instanceOf(ViewGroup.class)),is(instanceOf(TextView.class)),isDisplayed())).check(matches(withText(TITLE_BAR)));
+        onView(withId(R.id.activityChangeTextBtn)).perform(click());
+        onView(allOf(is(instanceOf(TextView.class)),isDisplayed())).check(matches(withText(TITLE_BAR)));
+
     }
 }
