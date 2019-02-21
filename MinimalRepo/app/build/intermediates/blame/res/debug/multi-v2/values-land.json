@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\MobileAutomation\\mobile-automation-pre-emp\\MinimalRepo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\florian.anghele\\.gradle\\caches\\transforms-1\\files-1.1\\design-23.1.0.aar\\10a31df0f10c67c693c30429f2454a4d\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "282",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "459"
+                    },
+                    "to": {
+                        "startLines": "13",
+                        "startColumns": "4",
+                        "startOffsets": "749",
+                        "endLines": "16",
+                        "endColumns": "12",
+                        "endOffsets": "926"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\florian.anghele\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.0.aar\\1696a9fb6f02fecc38e66e36435984a2\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "4,7,10,13,16,17",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "287,582,896,1199,1505,1576",
+                        "endColumns": "61,71,69,63,70,67",
+                        "endOffsets": "344,649,961,1258,1571,1639"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,117,189,259,323,394",
+                        "endColumns": "61,71,69,63,70,67",
+                        "endOffsets": "112,184,254,318,389,457"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\florian.anghele\\.gradle\\caches\\transforms-1\\files-1.1\\materialdatetimepicker-1.5.1.aar\\085511be3489a8f8eb38d03ca94e2d13\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "212,264,318,378,439",
+                        "endColumns": "51,53,59,60,59",
+                        "endOffsets": "259,313,373,434,494"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "462,514,568,628,689",
+                        "endColumns": "51,53,59,60,59",
+                        "endOffsets": "509,563,623,684,744"
+                    }
+                }
+            ]
+        }
+    ]
+}
