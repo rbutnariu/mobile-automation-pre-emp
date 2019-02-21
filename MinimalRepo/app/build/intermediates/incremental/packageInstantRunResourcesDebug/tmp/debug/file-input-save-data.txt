@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Thu Feb 21 10:31:37 EET 2019
+1.base=C\:\\mobile-automation-pre-emp\\MinimalRepo\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=fonts/Aller_Regular.ttf
+0.set=ASSET
+0.base=C\:\\mobile-automation-pre-emp\\MinimalRepo\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+1.path=fonts/Roboto-Medium.ttf

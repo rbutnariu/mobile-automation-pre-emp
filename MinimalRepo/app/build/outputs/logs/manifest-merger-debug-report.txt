@@ -1,0 +1,182 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:2:1-57:12
+MERGED from [com.google.android.gms:play-services-analytics:7.8.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\play-services-analytics-7.8.0.aar\fcb14a8ac603c954fb00d376d7481e18\AndroidManifest.xml:16:1-25:12
+MERGED from [uk.co.chrisjenx:calligraphy:2.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\calligraphy-2.1.0.aar\b2f3ad37c28e4f1c7c0f6c6ab6eacd81\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.ganfra:material-spinner:1.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\material-spinner-1.1.0.aar\065a07faecb0a37c461681bde304a75c\AndroidManifest.xml:2:1-10:12
+MERGED from [com.wdullaer:materialdatetimepicker:1.5.1] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\materialdatetimepicker-1.5.1.aar\ff95b80f0838bdf37d662b27fa6505e7\AndroidManifest.xml:17:1-30:12
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\com.amulyakhare.textdrawable-1.0.1.aar\a2ede50f0c40b875798b848958223289\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:design:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\design-23.1.0.aar\af787558edb7960245eeaedb9dfea046\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:recyclerview-v7:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.1.0.aar\4d2b823f29257a5bf0b46f4da2b5a32f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.0.aar\787ec733666f98cb73e21274d06ea04e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v13:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\support-v13-23.1.0.aar\242f80923ecad40fde81953145ce0fc7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:7.8.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\play-services-base-7.8.0.aar\a65e490a0481c7f7b21be9485be2309e\AndroidManifest.xml:16:1-26:12
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.0.aar\f092726927425d76b1d442933725e772\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:2:1-57:12
+	package
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:3:5-58
+		INJECTED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:2:1-57:12
+		INJECTED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:2:1-57:12
+		INJECTED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#ANDROID.PERMISSION.INTERNET
+ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#ANDROID.PERMISSION.ACCESS_NETWORK_STATE
+ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:6:22-76
+application
+ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:12:5-54:19
+MERGED from [com.google.android.gms:play-services-analytics:7.8.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\play-services-analytics-7.8.0.aar\fcb14a8ac603c954fb00d376d7481e18\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-analytics:7.8.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\play-services-analytics-7.8.0.aar\fcb14a8ac603c954fb00d376d7481e18\AndroidManifest.xml:24:5-20
+MERGED from [uk.co.chrisjenx:calligraphy:2.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\calligraphy-2.1.0.aar\b2f3ad37c28e4f1c7c0f6c6ab6eacd81\AndroidManifest.xml:11:5-20
+MERGED from [uk.co.chrisjenx:calligraphy:2.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\calligraphy-2.1.0.aar\b2f3ad37c28e4f1c7c0f6c6ab6eacd81\AndroidManifest.xml:11:5-20
+MERGED from [com.wdullaer:materialdatetimepicker:1.5.1] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\materialdatetimepicker-1.5.1.aar\ff95b80f0838bdf37d662b27fa6505e7\AndroidManifest.xml:28:5-20
+MERGED from [com.wdullaer:materialdatetimepicker:1.5.1] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\materialdatetimepicker-1.5.1.aar\ff95b80f0838bdf37d662b27fa6505e7\AndroidManifest.xml:28:5-20
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\com.amulyakhare.textdrawable-1.0.1.aar\a2ede50f0c40b875798b848958223289\AndroidManifest.xml:12:5-20
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\com.amulyakhare.textdrawable-1.0.1.aar\a2ede50f0c40b875798b848958223289\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:design:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\design-23.1.0.aar\af787558edb7960245eeaedb9dfea046\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\design-23.1.0.aar\af787558edb7960245eeaedb9dfea046\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.0.aar\787ec733666f98cb73e21274d06ea04e\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.0.aar\787ec733666f98cb73e21274d06ea04e\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v13:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\support-v13-23.1.0.aar\242f80923ecad40fde81953145ce0fc7\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v13:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\support-v13-23.1.0.aar\242f80923ecad40fde81953145ce0fc7\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:7.8.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\play-services-base-7.8.0.aar\a65e490a0481c7f7b21be9485be2309e\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-base:7.8.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\play-services-base-7.8.0.aar\a65e490a0481c7f7b21be9485be2309e\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.0.aar\f092726927425d76b1d442933725e772\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.0.aar\f092726927425d76b1d442933725e772\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:16:9-41
+	android:icon
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:17:9-53
+	android:name
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:13:9-55
+activity#com.example.avjindersinghsekhon.minimaltodo.Main.MainActivity
+ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:19:9-29:20
+	android:screenOrientation
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:22:13-49
+	android:label
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:23:13-45
+	android:launchMode
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:21:13-43
+	android:name
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:20:13-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:27:27-74
+activity#com.example.avjindersinghsekhon.minimaltodo.AddToDo.AddToDoActivity
+ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:31:9-34:15
+	android:screenOrientation
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:32:13-49
+	android:parentActivityName
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:33:13-60
+	android:name
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:31:19-58
+activity#com.example.avjindersinghsekhon.minimaltodo.About.AboutActivity
+ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:36:9-39:15
+	android:parentActivityName
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:38:13-60
+	android:label
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:37:13-45
+	android:name
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:36:19-54
+activity#com.example.avjindersinghsekhon.minimaltodo.Reminder.ReminderActivity
+ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:41:9-43:15
+	android:label
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:42:13-45
+	android:name
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:41:19-60
+service#com.example.avjindersinghsekhon.minimaltodo.Utility.TodoNotificationService
+ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:45:9-46:15
+	android:name
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:45:18-65
+service#com.example.avjindersinghsekhon.minimaltodo.Utility.DeleteNotificationService
+ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:47:9-48:15
+	android:name
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:47:18-67
+activity#com.example.avjindersinghsekhon.minimaltodo.Settings.SettingsActivity
+ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:49:9-52:15
+	android:parentActivityName
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:50:13-60
+	android:name
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml:49:19-60
+uses-sdk
+INJECTED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml
+INJECTED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services-analytics:7.8.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\play-services-analytics-7.8.0.aar\fcb14a8ac603c954fb00d376d7481e18\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics:7.8.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\play-services-analytics-7.8.0.aar\fcb14a8ac603c954fb00d376d7481e18\AndroidManifest.xml:18:5-42
+MERGED from [uk.co.chrisjenx:calligraphy:2.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\calligraphy-2.1.0.aar\b2f3ad37c28e4f1c7c0f6c6ab6eacd81\AndroidManifest.xml:7:5-9:41
+MERGED from [uk.co.chrisjenx:calligraphy:2.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\calligraphy-2.1.0.aar\b2f3ad37c28e4f1c7c0f6c6ab6eacd81\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ganfra:material-spinner:1.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\material-spinner-1.1.0.aar\065a07faecb0a37c461681bde304a75c\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.ganfra:material-spinner:1.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\material-spinner-1.1.0.aar\065a07faecb0a37c461681bde304a75c\AndroidManifest.xml:6:5-8:41
+MERGED from [com.wdullaer:materialdatetimepicker:1.5.1] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\materialdatetimepicker-1.5.1.aar\ff95b80f0838bdf37d662b27fa6505e7\AndroidManifest.xml:22:5-24:41
+MERGED from [com.wdullaer:materialdatetimepicker:1.5.1] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\materialdatetimepicker-1.5.1.aar\ff95b80f0838bdf37d662b27fa6505e7\AndroidManifest.xml:22:5-24:41
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\com.amulyakhare.textdrawable-1.0.1.aar\a2ede50f0c40b875798b848958223289\AndroidManifest.xml:8:5-10:41
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\com.amulyakhare.textdrawable-1.0.1.aar\a2ede50f0c40b875798b848958223289\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\design-23.1.0.aar\af787558edb7960245eeaedb9dfea046\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\design-23.1.0.aar\af787558edb7960245eeaedb9dfea046\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.1.0.aar\4d2b823f29257a5bf0b46f4da2b5a32f\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.1.0.aar\4d2b823f29257a5bf0b46f4da2b5a32f\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.0.aar\787ec733666f98cb73e21274d06ea04e\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.0.aar\787ec733666f98cb73e21274d06ea04e\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v13:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\support-v13-23.1.0.aar\242f80923ecad40fde81953145ce0fc7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\support-v13-23.1.0.aar\242f80923ecad40fde81953145ce0fc7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:7.8.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\play-services-base-7.8.0.aar\a65e490a0481c7f7b21be9485be2309e\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.8.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\play-services-base-7.8.0.aar\a65e490a0481c7f7b21be9485be2309e\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.0.aar\f092726927425d76b1d442933725e772\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.0.aar\f092726927425d76b1d442933725e772\AndroidManifest.xml:20:5-43
+INJECTED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml
+INJECTED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml
+		ADDED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\mobile-automation-pre-emp\MinimalRepo\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-analytics:7.8.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\play-services-analytics-7.8.0.aar\fcb14a8ac603c954fb00d376d7481e18\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:7.8.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\play-services-analytics-7.8.0.aar\fcb14a8ac603c954fb00d376d7481e18\AndroidManifest.xml:21:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-analytics:7.8.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\play-services-analytics-7.8.0.aar\fcb14a8ac603c954fb00d376d7481e18\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:7.8.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\play-services-analytics-7.8.0.aar\fcb14a8ac603c954fb00d376d7481e18\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from [com.wdullaer:materialdatetimepicker:1.5.1] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\materialdatetimepicker-1.5.1.aar\ff95b80f0838bdf37d662b27fa6505e7\AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from [com.wdullaer:materialdatetimepicker:1.5.1] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\materialdatetimepicker-1.5.1.aar\ff95b80f0838bdf37d662b27fa6505e7\AndroidManifest.xml:26:22-63
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-base:7.8.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\play-services-base-7.8.0.aar\a65e490a0481c7f7b21be9485be2309e\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-base:7.8.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\play-services-base-7.8.0.aar\a65e490a0481c7f7b21be9485be2309e\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:7.8.0] C:\Users\alexandru.caciur\.gradle\caches\transforms-1\files-1.1\play-services-base-7.8.0.aar\a65e490a0481c7f7b21be9485be2309e\AndroidManifest.xml:22:13-58
