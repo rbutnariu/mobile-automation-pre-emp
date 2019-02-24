@@ -17,6 +17,7 @@
 package com.example.android.testing.espresso.BasicSample;
 
 import android.app.Activity;
+import android.widget.EditText;
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -33,8 +34,13 @@ import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
 import static androidx.test.espresso.action.ViewActions.typeText;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
+import static org.hamcrest.Matchers.allOf;
+import static org.hamcrest.Matchers.instanceOf;
+import static org.hamcrest.Matchers.is;
+
 
 
 /**
@@ -46,20 +52,23 @@ import static androidx.test.espresso.matcher.ViewMatchers.withText;
 @RunWith(AndroidJUnit4.class)
 @LargeTest
 public class ChangeTextBehaviorTest {
+    public static final String STRING = "Hello Espresso!";
 
     public static final String STRING_TO_BE_TYPED = "Espresso";
+    public static final String TITLE = "Basic Espresso sample";
 
     /**
      * Use {@link ActivityScenarioRule} to create and launch the activity under test, and close it
      * after test completes. This is a replacement for {@link androidx.test.rule.ActivityTestRule}.
      */
-    @Rule public ActivityScenarioRule<MainActivity> activityScenarioRule
+    @Rule
+    public ActivityScenarioRule<MainActivity> activityScenarioRule
             = new ActivityScenarioRule<>(MainActivity.class);
 
     @Test
     public void changeText_sameActivity() {
         // Type text and then press the button.
-        onView(withId(R.id.editTextUserInput))
+        onView(allOf(withId(R.id.editTextUserInput), is(instanceOf(EditText.class))))
                 .perform(typeText(STRING_TO_BE_TYPED), closeSoftKeyboard());
         onView(withId(R.id.changeTextBt)).perform(click());
 
@@ -76,5 +85,28 @@ public class ChangeTextBehaviorTest {
 
         // This view is in a different Activity, no need to tell Espresso.
         onView(withId(R.id.show_text_view)).check(matches(withText(STRING_TO_BE_TYPED)));
+    }
+
+    @Test
+    public void verifyString() {
+        onView(withId(R.id.textToBeChanged)).check(matches(allOf(withText(STRING), isDisplayed())));
+    }
+
+    @Test
+    public void checkTitle() {
+        //check title on first page
+        onView(withText(TITLE)).check(matches(isDisplayed()));
+
+        //type text
+        onView(withId(R.id.editTextUserInput)).perform(typeText(STRING_TO_BE_TYPED), closeSoftKeyboard());
+
+        //go on the second page
+        onView(withId(R.id.activityChangeTextBtn)).perform(click());
+
+        //check title on second page
+        onView(withText(TITLE)).check(matches(isDisplayed()));
+
+        //check if custom text is displayed on second page
+        onView(withId(R.id.show_text_view)).check(matches(isDisplayed()));
     }
 }
