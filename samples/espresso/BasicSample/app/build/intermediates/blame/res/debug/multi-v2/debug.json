@@ -1,0 +1,126 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\mobile_automation\\samples\\espresso\\BasicSample\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\mobile_automation\\samples\\espresso\\BasicSample\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "17,19,18,21,20",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "706,823,766,936,876",
+                        "endColumns": "58,51,55,87,58",
+                        "endOffsets": "760,870,817,1019,930"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "158,217,269,325,413",
+                        "endColumns": "58,51,55,87,58",
+                        "endOffsets": "212,264,320,408,467"
+                    }
+                },
+                {
+                    "source": "C:\\mobile_automation\\samples\\espresso\\BasicSample\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "18,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "779,838",
+                        "endColumns": "57,44",
+                        "endOffsets": "832,878"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,44",
+                        "endOffsets": "108,153"
+                    }
+                },
+                {
+                    "source": "C:\\mobile_automation\\samples\\espresso\\BasicSample\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "744",
+                        "endColumns": "57",
+                        "endOffsets": "797"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "472",
+                        "endColumns": "57",
+                        "endOffsets": "525"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\mobile_automation\\samples\\espresso\\BasicSample\\app\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13_values-w820dp-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\mobile_automation\\samples\\espresso\\BasicSample\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "from": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "984",
+                        "endColumns": "57",
+                        "endOffsets": "1037"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\mobile_automation\\samples\\espresso\\BasicSample\\app\\build\\intermediates\\res\\merged\\debug\\values-v13_values-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\mobile_automation\\samples\\espresso\\BasicSample\\app\\src\\main\\res\\values-v13\\styles.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "706",
+                        "endColumns": "62",
+                        "endOffsets": "764"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "62",
+                        "endOffsets": "113"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\mobile_automation\\samples\\espresso\\BasicSample\\app\\build\\intermediates\\res\\merged\\debug\\values-v21_values-v21.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\mobile_automation\\samples\\espresso\\BasicSample\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "706",
+                        "endColumns": "60",
+                        "endOffsets": "762"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "60",
+                        "endOffsets": "111"
+                    }
+                }
+            ]
+        }
+    ]
+}
