@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\MobileAutomation\\mobile-automation-pre-emp\\samples\\espresso\\BasicSample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\MobileAutomation\\mobile-automation-pre-emp\\samples\\espresso\\BasicSample\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "17,19,18,21,20",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "706,823,766,936,876",
+                        "endColumns": "58,51,55,87,58",
+                        "endOffsets": "760,870,817,1019,930"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "158,217,269,325,413",
+                        "endColumns": "58,51,55,87,58",
+                        "endOffsets": "212,264,320,408,467"
+                    }
+                },
+                {
+                    "source": "C:\\MobileAutomation\\mobile-automation-pre-emp\\samples\\espresso\\BasicSample\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "744",
+                        "endColumns": "57",
+                        "endOffsets": "797"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "472",
+                        "endColumns": "57",
+                        "endOffsets": "525"
+                    }
+                },
+                {
+                    "source": "C:\\MobileAutomation\\mobile-automation-pre-emp\\samples\\espresso\\BasicSample\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "18,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "779,838",
+                        "endColumns": "57,44",
+                        "endOffsets": "832,878"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,44",
+                        "endOffsets": "108,153"
+                    }
+                }
+            ]
+        }
+    ]
+}
